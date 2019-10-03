@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Inconsolata', 'Roboto', monospace;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f6f6f6;
+  background: rgb(255,216,216);
+  background: linear-gradient(45deg, rgba(255,216,216,0.62) 0%, rgba(205,171,255,0.38) 40%, rgba(255,255,255,1) 95%);
+}
+
+#main {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 30px 60px 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  font-family: 'Press Start 2P', 'Inconsolata', 'Roboto', monospace;
+}
+
+.projects__item {
+  margin: 1rem;
+  padding: 1rem;
+  background: #f6f6f6;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+.projects__title {
+  text-align: center;
+  font-family: 'Press Start 2P', 'Inconsolata', 'Roboto', monospace;
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 1.75em;
+}
+a.projects__link {
+  padding: 1em;
+  margin: -1em;
+  text-decoration: none;
+  position: relative;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ccc;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.projects__item:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
+  transform: translate3D(0, -2px, 0);
+}
+
+.projects__description {
+  padding: 1em 0;
+}
+
+.projects__tech {
+  border-top: thin solid #d3d3d3;
+  padding-top: 15px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  #main {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 0.95em;
+  }
+  .projects__title {
+    font-size: 0.75em;
+    line-height: 1.75em;
+    margin-top: 0.75em;
+  }
+  .projects__description {
+    padding: 0.25em 0;
+  }
+}

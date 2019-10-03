@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>dsl - projects portfolio page</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div id="main">
+      <h1>dsl - projects</h1>
+
+      <div class="projects">
+        <div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://www.dolliars.com" target="_blank">Projects Page</a></h2> 
+          <p class="projects__description">I used a template engine to build this site. My primary concern was being able to add a project in a quick and simple manner. All projects are therefore JSON objects. I also wanted to keep the aesthetic of the site clean and simple so chose to display the projects in vertical card-like list.</p>
+          <p class="projects__tech">tech : nunjucks, gulp, json, css, node, javascript, git</p>
+        </div>
+        <div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://dolliars.github.io/studio-ghibli/" target="_blank">Ghibli API</a></h2> 
+          <p class="projects__description">I wanted to playing around with APIs. Here I&#39;m using Studio Ghibli&#39;s API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use Fetch API.</p>
+          <p class="projects__tech">tech : javascript, studio ghibli api, css, git</p>
+        </div>
+        <div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://twitter.com/BekindBot" target="_blank">Be Kind Bot</a></h2> 
+          <p class="projects__description">Inspired by a conversation between Shane Parrish and Adam Grant on The Knowledge Project podcast, I decided to write a twitter bot that asked the same question on a daily basis. One issue that came up was that the Twitter API throws an error when a duplicate status is detected. To circumvent the issue, I added the ordinal date as the first part of the tweet. I also created and launched an aws ec2 instance to serve the code.</p>
+          <p class="projects__tech">tech : aws ec2, twitter api, javascript, git</p>
+        </div>
+        <div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://www.heyheatheritsmeagain.com/" target="_blank">Blog</a></h2> 
+          <p class="projects__description">One of my objectives is to become a better programmer and writer. A blog is an excellent way to do both those things simultaneously. My first few attempts failed because I had no clear audience. After a few iterations I found that I was able to write more easily when addressing a specific person. Hence the birth of &quot;Hey Heather, it&#39;s me again&quot;. I write about general things I&#39;ve been working and things I don&#39;t understand.</p>
+          <p class="projects__tech">tech : jekyll, liquid, ruby, css, javascript, git</p>
+        </div>
+        <div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://dolliars.github.io/reacting/" target="_blank">Reacting</a></h2> 
+          <p class="projects__description">At my previous office, many of the sites we managed were changing to React. I left before the changes happened so decide to try React on my own time.</p>
+          <p class="projects__tech">tech : react, javascript, git</p>
+        </div>
+        
+      </div>
+  </body>
+</html>

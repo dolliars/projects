@@ -1,0 +1,6 @@
+    {% macro active(activePage='home') -%}
+        <nav>
+          <a href="#" class="{% if activePage == 'about' %} active {% endif %}">About</a>
+          <a href="#" class="{% if activePage == 'contact' %} active {% endif %}">Contact</a>
+      </nav>
+    {%- endmacro %}
