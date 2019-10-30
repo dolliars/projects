@@ -7,7 +7,7 @@
     },{
         "title": "Ghibli API",
         "url": "https://dolliars.github.io/studio-ghibli/",
-        "description": "I wanted to playing around with APIs. Here I'm using Studio Ghibli's API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use Fetch API.",
+        "description": "I wanted to play around with APIs. Here I'm using Studio Ghibli's API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use Fetch API.",
         "tech": "javascript, studio ghibli api, css, git"
     }, {  
         "title": "Be Kind Bot",
@@ -17,7 +17,7 @@
     }, {
         "title": "Blog",
         "url": "https://www.heyheatheritsmeagain.com/",
-        "description": "One of my objectives is to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write when addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working and things I don't understand.",
+        "description": "One of my objectives is to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write while addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working and things I don't understand.",
         "tech": "jekyll, liquid, ruby, css, javascript, git"
     }, {
         "title": "Reacting",
