@@ -17,7 +17,7 @@
     }, {
         "title": "Blog",
         "url": "https://www.heyheatheritsmeagain.com/",
-        "description": "One of my objectives is to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write while addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working and things I don't understand.",
+        "description": "I want to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write while addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working and things I don't understand.",
         "tech": "jekyll, liquid, ruby, css, javascript, git"
     }, {
         "title": "Reacting",
