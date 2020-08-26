@@ -1,28 +1,34 @@
 {
-    "projects": [{
-        "title": "Projects Page",
-        "url": "https://www.dolliars.com",
-        "description": "I used a template engine to build this site. My primary concern was being able to add a project in a quick and simple manner. All projects are therefore JSON objects. I also wanted to keep the aesthetic of the site clean and simple so chose to display the projects in vertical card-like list.",
-        "tech": "nunjucks, gulp, json, css, node, javascript, git"
-    },{
-        "title": "Ghibli API",
-        "url": "https://dolliars.github.io/studio-ghibli/",
-        "description": "I wanted to play around with APIs. Here I'm using Studio Ghibli's API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use Fetch API.",
-        "tech": "javascript, studio ghibli api, css, git"
-    }, {  
-        "title": "Be Kind Bot",
-        "url": "https://twitter.com/BekindBot",
-        "description": "Inspired by a conversation between Shane Parrish and Adam Grant on The Knowledge Project podcast, I decided to write a twitter bot that asked the same question on a daily basis. One issue that came up was that the Twitter API throws an error when a duplicate status is detected. To circumvent the issue, I added the ordinal date as the first part of the tweet. I also created and launched an aws ec2 instance to serve the code.",
-        "tech": "aws ec2, twitter api, javascript, git"
-    }, {
-        "title": "Blog",
-        "url": "https://www.heyheatheritsmeagain.com/",
-        "description": "I want to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write while addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working and things I don't understand.",
-        "tech": "jekyll, liquid, ruby, css, javascript, git"
-    }, {
-        "title": "Reacting",
-        "url": "https://dolliars.github.io/reacting/",
-        "description": "At my previous office, many of the sites we managed were changing to React. I left before the changes happened so decide to try React on my own time.",
-        "tech": "react, javascript, git"
-    }]
+  "projects": [
+    {
+      "title": "Blog",
+      "url": "https://www.heyheatheritsmeagain.com/",
+      "description": "I want to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write while addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working and things I don't understand.",
+      "tech": "jekyll, liquid, ruby, css, javascript, git"
+    },
+    {
+      "title": "Projects Page",
+      "url": "https://www.dolliars.com",
+      "description": "I used a template engine to build this site. My primary concern was being able to add a project in a quick and simple manner. All projects are therefore JSON objects. I also wanted to keep the aesthetic of the site clean and simple so chose to display the projects in vertical card-like list.",
+      "tech": "nunjucks, gulp, json, css, node, javascript, git"
+    },
+    {
+      "title": "Ghibli API",
+      "url": "https://dolliars.github.io/studio-ghibli/",
+      "description": "I wanted to play around with APIs. Here I'm using Studio Ghibli's API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use Fetch API.",
+      "tech": "javascript, studio ghibli api, css, git"
+    },
+    {
+      "title": "Be Kind Bot",
+      "url": "https://twitter.com/BekindBot",
+      "description": "Inspired by a conversation between Shane Parrish and Adam Grant on The Knowledge Project podcast, I decided to write a twitter bot that asked the same question on a daily basis. One issue that came up was that the Twitter API throws an error when a duplicate status is detected. To circumvent the issue, I added the ordinal date as the first part of the tweet. I also created and launched an aws ec2 instance to serve the code.",
+      "tech": "aws ec2, twitter api, javascript, git"
+    },
+    {
+      "title": "Reacting",
+      "url": "https://dolliars.github.io/reacting/",
+      "description": "At my previous office, many of the sites we managed were changing to React. I left before the changes happened so decide to try React on my own time.",
+      "tech": "react, javascript, git"
+    }
+  ]
 }
