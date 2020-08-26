@@ -3,19 +3,19 @@
     {
       "title": "Blog",
       "url": "https://www.heyheatheritsmeagain.com/",
-      "description": "I want to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write while addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working and things I don't understand.",
+      "description": "I want to become a better programmer and writer. A blog is an excellent way to do both. After a few iterations I found it was easier to write while addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working on and things I don't understand.",
       "tech": "jekyll, liquid, ruby, css, javascript, git"
     },
     {
       "title": "Projects Page",
       "url": "https://www.dolliars.com",
-      "description": "I used a template engine to build this site. My primary concern was being able to add a project in a quick and simple manner. All projects are therefore JSON objects. I also wanted to keep the aesthetic of the site clean and simple so chose to display the projects in vertical card-like list.",
+      "description": "I used a template engine to build this site. My primary concern was being able to add a project in a quick and simple manner. All projects are therefore JSON objects. I also wanted to keep the aesthetic of the site clean and simple so chose to display the projects in a vertical card-like list.",
       "tech": "nunjucks, gulp, json, css, node, javascript, git"
     },
     {
       "title": "Ghibli API",
       "url": "https://dolliars.github.io/studio-ghibli/",
-      "description": "I wanted to play around with APIs. Here I'm using Studio Ghibli's API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use Fetch API.",
+      "description": "I wanted to play around with APIs. Here I'm using Studio Ghibli's API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use the Fetch API.",
       "tech": "javascript, studio ghibli api, css, git"
     },
     {
