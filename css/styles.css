@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: 'Inconsolata', 'Roboto', monospace;
 }
+
 *,
 *:before,
 *:after {
@@ -9,6 +10,7 @@ html {
 }
 
 body {
+  min-height: 100vh;
   background-color: #f6f6f6;
   background: linear-gradient(45deg, rgba(255,216,216,0.62) 0%, rgba(205,171,255,0.38) 40%, rgba(255,255,255,1) 95%);
 }
@@ -42,6 +44,7 @@ h1 {
   font-weight: 400;
   margin-top: 1.75em;
 }
+
 a.projects__link {
   padding: 1em;
   margin: -1em;
@@ -80,6 +83,12 @@ a:hover:before {
   border-top: thin solid #d3d3d3;
   padding-top: 15px;
   font-weight: 700;
+}
+
+.list--item {
+  margin-bottom: 1em;
+  line-height: 1.5;
+  list-style-type: "\25e6";
 }
 
 @media screen and (max-width: 600px) {
