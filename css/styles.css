@@ -91,6 +91,10 @@ a:hover:before {
   list-style-type: "\25e6";
 }
 
+.error__container {
+  text-align: center;
+}
+
 .intro {
   margin: 1.5em 0.25em;
 }
