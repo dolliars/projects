@@ -12,11 +12,11 @@ html {
 body {
   min-height: 100vh;
   background-color: #f6f6f6;
-  background: linear-gradient(45deg, rgba(255,216,216,0.62) 0%, rgba(205,171,255,0.38) 40%, rgba(255,255,255,1) 95%);
+  line-height: 1.5;
 }
 
 #main {
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
   padding: 50px 30px 60px 30px;
 }
@@ -25,7 +25,7 @@ h1 {
   text-align: center;
   margin-bottom: 1em;
   font-size: 1.5em;
-  font-family: 'Press Start 2P', 'Inconsolata', 'Roboto', monospace;
+  font-family: 'Inconsolata', 'Roboto', monospace;
 }
 
 .projects__item {
@@ -39,7 +39,7 @@ h1 {
 
 .projects__title {
   text-align: center;
-  font-family: 'Press Start 2P', 'Inconsolata', 'Roboto', monospace;
+  font-family: 'Inconsolata', 'Roboto', monospace;
   font-size: 1em;
   font-weight: 400;
   margin-top: 1.75em;
@@ -89,6 +89,20 @@ a:hover:before {
   margin-bottom: 1em;
   line-height: 1.5;
   list-style-type: "\25e6";
+}
+
+.intro {
+  margin: 1.5em 0.25em;
+}
+
+.letter {
+  background-color: #fff;
+  margin: 2em 0;
+  padding: 3em 1.5em;
+}
+
+p.letter {
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 600px) {
