@@ -2,15 +2,15 @@
 {% extends "layout.njk" %}
 {% block content %}
     <div id="main">
-      <h1>dsl - projects</h1>
+      <h1 class="title">dsl - projects</h1>
       <div class="projects">
         {% for project in projects -%}
         <div class="projects__item">
-          <h2 class="projects__title"><a class="projects__link" href="{{project.url}}" target="_blank">{{project.title}}</a></h2> 
+          <h2 class="projects__title"><a class="projects__link" href="{{project.url}}" target="_blank">{{project.title}}</a></h2>
           <p class="projects__description">{{project.description}}</p>
           <p class="projects__tech">tech : {{project.tech}}</p>
         </div>
-        {% endfor %}
+        {%- endfor %}
       </div>
     </div>
 {%- endblock %}

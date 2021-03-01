@@ -12,6 +12,7 @@ html {
 body {
   min-height: 100vh;
   background-color: #f6f6f6;
+  background: linear-gradient(45deg, rgba(255,216,216,0.62) 0%, rgba(205,171,255,0.38) 40%, rgba(255,255,255,1) 95%);
   line-height: 1.5;
 }
 
@@ -28,6 +29,17 @@ h1 {
   font-family: 'Inconsolata', 'Roboto', monospace;
 }
 
+.title {
+  font-size: 1.25em;
+  font-family: 'Press Start 2P', 'Inconsolata', 'Roboto', monospace;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .projects__item {
   margin: 1rem;
   padding: 1rem;
@@ -35,11 +47,12 @@ h1 {
   box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: all .2s linear;
+  width: 40%;
 }
 
 .projects__title {
   text-align: center;
-  font-family: 'Inconsolata', 'Roboto', monospace;
+  font-family: 'Press Start 2P', 'Inconsolata', 'Roboto', monospace;
   font-size: 1em;
   font-weight: 400;
   margin-top: 1.75em;
@@ -117,15 +130,24 @@ p.letter {
   #main {
     padding: 15px;
   }
+
   h1 {
     font-size: 0.95em;
   }
+
   .projects__title {
     font-size: 0.75em;
     line-height: 1.75em;
     margin-top: 0.75em;
   }
+
   .projects__description {
     padding: 0.25em 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projects__item {
+    width: 100%;
   }
 }

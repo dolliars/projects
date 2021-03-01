@@ -3,134 +3,41 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>dsl - open letter to representatives</title>
+    <title>dsl - projects portfolio page</title>
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata%7CPress+Start+2P&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
   </head>
   <body>
-    
     <div id="main">
-      <h1>Letter to representatives</h1>
+      <h1 class="title">dsl - projects</h1>
       <div class="projects">
-        <div class="intro">
-          <p>We can do better. The vaccine rollout has been slow in Canada. And while I am sure our
-          government officials are thinking about this as much as I am, I'm unsatisfied with what is
-          being done. So I wrote a letter to my federal, provincial, and municipal governments.
-          Maybe this can inspire you to write something to them as well. I don't care about
-          criticizing what they've done up to now. I just want to push for action.</p>
-          <p>Here's where you can find your officials emails: </p>
-          <ul class="list">
-            <li>federal: https://www.ourcommons.ca/members/en/search</li>
-            <li>provincial: http://www.assnat.qc.ca/en/deputes/index.html</li>
-            <li>municipal (Montreal): https://montreal.ca/en/city-government/city-council</li>
-          </ul>
-          <p>Addendum 0: I sent this to the emails of:</p>
-          <ul class="list">
-            <li>Justin Trudeau, the Prime Minister of Canada</li>
-            <li>Marc Miller, the elected representative of Ville-Marie—Le Sud-Ouest—Île-des-Soeurs</li>
-            <li>Anita Anand, the Minister of Public Services and Procurement</li>
-            <li>François Legault, Premier of Quebec <i>**via form on the Assemblée National
-                website</i></li>
-            <li>Dominique Anglade, the leader of the Quebec Liberal Party and leader of the Official
-            Opposition of Quebec</li>
-            <li>Valérie Plante, Mayor of Montreal</li>
-            <li>Benoit Dorais, city councillor and borough mayor of Le Sud-Ouest</li>
-          </ul>
-          <p>Addendum 1: this was subsequently forwarded to Patty Hajdu, the Minister of Health</p>
-          <p>Addendum 2: upon re-reading the letter I revise my condoning of commandeering
-          refrigeration. You can just <i>BUY</i> the appropriate equipment. I can't imagine
-          that ice cream shops would even have freezer that go to -70°C. That sentence is ludicrous.</p>
+        <div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://www.heyheatheritsmeagain.com/blog/building-speakers" target="_blank">Building speakers</a></h2>
+          <p class="projects__description">I built myself a pair of speakers out of ceiling pannels, wires, and will. The most challenging part was soldering the wires to the audio exciters but I managed to connect everything. This links to a blog post about the experience.</p>
+          <p class="projects__tech">tech : soldering</p>
+        </div><div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://www.heyheatheritsmeagain.com/" target="_blank">Blog</a></h2>
+          <p class="projects__description">I started blogging in order to become a better programmer and writer. After a few iterations I found it was easier to write when addressing a specific person. Hence the birth of &quot;Hey Heather, it&#39;s me again&quot;. I write about general things I&#39;ve been working on and things I don&#39;t understand.</p>
+          <p class="projects__tech">tech : jekyll, liquid, ruby, css, javascript, git</p>
+        </div><div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://www.dolliars.com" target="_blank">Projects Page</a></h2>
+          <p class="projects__description">I used a template engine to build this site. My primary concern was being able to add a project in a quick and simple manner. All projects are therefore JSON objects. I also wanted to keep the aesthetic of the site clean and simple so chose to display the projects in a vertical card-like list.</p>
+          <p class="projects__tech">tech : nunjucks, gulp, json, css, node, javascript, git</p>
+        </div><div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://dolliars.github.io/studio-ghibli/" target="_blank">Ghibli API</a></h2>
+          <p class="projects__description">I wanted to play around with APIs. Here I&#39;m using Studio Ghibli&#39;s API to get the title and description of movies. Initially this was set up using a XMLHttpRequest. I decided to change it to use the Fetch API.</p>
+          <p class="projects__tech">tech : javascript, studio ghibli api, css, git</p>
+        </div><div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://twitter.com/BekindBot" target="_blank">Be Kind Bot</a></h2>
+          <p class="projects__description">Inspired by a conversation between Shane Parrish and Adam Grant on The Knowledge Project podcast, I wrote a twitter bot that asked the same question daily. An issue that came up was that the Twitter API throws an error when a duplicate status is detected. To circumvent this, I added the ordinal date as the first part of the tweet.</p>
+          <p class="projects__tech">tech : aws ec2, twitter api, javascript, git</p>
+        </div><div class="projects__item">
+          <h2 class="projects__title"><a class="projects__link" href="https://dolliars.github.io/reacting/" target="_blank">Reacting</a></h2>
+          <p class="projects__description">At my previous office, many of the sites we managed were changing to React. I left before the changes were implemented so decide to try it out on my own by building a basic CRUD interface.</p>
+          <p class="projects__tech">tech : react, javascript, git</p>
         </div>
-        <hr>
-        <div class="letter">
-          <p>January 17th, 2021</p>
-          <p>This is an address to my government representatives:</p>
-          <p>We need more vaccines. We need to start vaccinating everyone as fast as possible.
-          Nothing short of a war effort is sufficient. The current plans we have aren't good enough.
-          The more we wait, the more people die. The more people get infected, the higher chance of
-          developing long-term health problems even if no complications from COVID arise.
-          <p>There is more we can do. We need to:</p>
-          <ul>
-            <li>approve the AstraZeneca vaccine and roll it out to anyone who wants it,</li>
-            <li>be vaccinating people 24/7,</li>
-            <li>have The Canadian Armed Forces and The Canadian Red Cross involved on sites,</li>
-            <li>have pharmacists, dentists, veterinarians vaccinating people.</li>
-          </ul>
-          <p>The efficacy of the AstraZeneca vaccine ranges between 60-90% depending on the research
-          consulted. This is better than having no vaccine at all, it has been deemed safe and is
-          being used in the United Kingdom. A more contagious strain has already been detected in
-          Canada.</p>
-          <p>We're already in a critical situation:</p>
-          <ul>
-            <li>In Quebec, there are reports doctors are preparing having to choose which patients
-              get critical care.</li>
-            <li>The new strain has spread faster than predicted in some areas (see Ireland).</li>
-            <li>Even in those mildly affected, there can be long-term health problems.</li>
-            <li>Other medical treatments are being postponed</li>
-          </ul>
-          <p>We need to be creative to find solutions to the problems we encounter. Are we lacking
-          refrigeration? If necessary, commandeer freezers, refrigerators, ice cream shops. Do we
-          need more people to administer the vaccines? Offer the opportunity to those with medical
-          degrees from other countries. Need even more people to administer vaccines? What about
-          those who've administered insulin vaccines? Where do we sign up. Need people to do
-          administrative tasks? I'll sign up for that too. Are you unsure what site in the city is
-          ideal for a pop-up vaccination area? Delegate it to the municipal government,
-          provide funds to rent an arena. Whatever it takes. We're all in this together. And we all
-          get out of this together.</p>
-          <p>People are dying. And will continue to die. We need to mobilize. If a new vaccine is
-          approved, we need to be ready to start administering all of them on landing day.</p>
-          <p>We need to do this now. As fast as possible. Because even when we're done vaccinating
-          Canadians, we will need to assist the rest of the world. Whether that's providing the
-          vaccines, shipping refrigeration, or any other need. Because the virus sees no
-          borders.</p>
-          <p>Cordially</p>
-          <hr>
-          <p style="padding-top: 1em;">Voici une lettre à mes représentants gouvernementaux:</p>
-          <p>Nous avons besoin de plus de vaccins. Nous devons commencer à vacciner tout le monde le
-          plus rapidement possible. Rien de moins qu'un effort de guerre est nécessaire. Les plans
-          actuels ne sont pas suffisants. Plus nous attendons, plus les gens meurent. Plus les
-          personnes sont infectées, plus nous aurons des gens qui développeront des problèmes de
-          santé long terme. Même dans les cas sans de graves complications.</p>
-          <p>Nous pouvons en faire plus. Nous devons:
-          <ul>
-            <li>approuver le vaccin AstraZeneca et le déployer à tous ceux qui le souhaitent,</li>
-            <li>faire vacciner les gens 24 heures sur 24, 7 jours sur 7,</li>
-            <li>impliquer les Forces armées canadiennes et la Croix-Rouge canadienne,</li>
-            <li>demander aux pharmaciens, dentistes, vétérinaires d'être prêts à vacciner les
-              gens.</li>
-          <p>L'efficacité du vaccin AstraZeneca varie entre 60 et 90% selon le rapport consulté.
-          Ceci est mieux que de n'avoir aucun vaccin. De plus que le vaccin a été jugé sécuritaire
-          et est en utilisation au Royaume-Uni. Rappelons que nous avons déjà détecté une souche
-          plus contagieuse au Canada.</p>
-          <p>Nous sommes déjà dans une situation critique:
-          <ul>
-            <li>Au Québec, selon certains reportages, des médecins se préparent à devoir choisir
-              quels patients recevront</li>
-            <li>des soins intensifs.La nouvelle souche s'est répandue plus rapidement que prévu
-              dans certaines régions (voir l'Irlande).</li>
-            <li>Nous reportons d'autres traitements médicaux.</li>
-          </ul>
-          <p>Nous devons être créatifs pour trouver des solutions aux problèmes que nous
-          rencontrons.  Manquons-nous de réfrigération? Si nécessaire, réquisitionné des
-          congélateurs, des réfrigérateurs, voire même les crèmeries. Avons-nous besoin de plus de
-          personnes pour administrer les vaccins? Offrez l'opportunité à ceux qui ont des diplômes
-          en médecine provenant d'autres pays. Besoin d'encore plus de personnes pour administrer
-          les vaccins?  Qu'en est-il des gens qui ont déjà administré des vaccins d'insuline? Besoin
-          de personnes pour effectuer des tâches administratives? Où est-ce qu'on s'inscrit. On est
-          incertain quel site de la ville est idéal pour une zone de vaccination pop-up? Déléguez-le
-          au gouvernement municipal, fournissez des fonds pour louer un aréna. Faites tout ce qu'il
-          faut. Nous sommes tous ensemble dans cette pandémie. Et nous devons tous faire pour s'en
-          sortir ensemble.</p>
-          <p>Les gens meurent. Et ils continueront de mourir. Nous devons nous mobiliser. Si un
-          nouveau vaccin est approuvé, nous devons être prêts à commencer à tous les administrer le
-          jour du débarquement.</p>
-          <p>Nous devons le faire maintenant. Aussi vite que possible. Parce que même lorsque nous
-          aurons terminé de vacciner les Canadiens, nous devrons aider le reste du monde. Que ce
-          soit en fournissant des vaccins, en expédiant des moyens de réfrigération ou pour tout
-          autre besoin. Parce que le virus ne voit pas de frontières.</p>
-          <p>Cordialement</p>
       </div>
     </div>
   </body>
