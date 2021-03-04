@@ -48,6 +48,8 @@ h1 {
   overflow: hidden;
   transition: all .2s linear;
   width: 40%;
+  display: grid;
+  grid-template-rows: minmax(60px, max-content) 3fr 1fr;
 }
 
 .projects__title {
@@ -96,6 +98,11 @@ a:hover:before {
   border-top: thin solid #d3d3d3;
   padding-top: 15px;
   font-weight: 700;
+}
+
+.projects__sample-title {
+  display: block;
+  text-align: center;
 }
 
 .list--item {
