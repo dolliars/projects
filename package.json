@@ -8,7 +8,8 @@
     "gulp-nunjucks-render": "^2.2.3"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "nunjucks": "^3.2.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
