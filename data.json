@@ -1,9 +1,15 @@
 {
   "projects": [
     {
+      "title": "Editing Zines",
+      "url": "https://wizardzines.com/zines/bite-size-bash/",
+      "description": "I collaborated on multiple zines in an editing capacity. I try and help bring clarity to the information being communicated by identifying explanations that could be confusing.",
+      "tech": "words"
+    },
+    {
       "title": "Building speakers",
       "url": "https://www.heyheatheritsmeagain.com/blog/building-speakers",
-      "description": "I built myself a pair of speakers out of ceiling pannels, wires, and will. The most challenging part was soldering the wires to the audio exciters but I managed to connect everything. This links to a blog post about the experience.",
+      "description": "I built myself a pair of speakers out of ceiling panels, wires, and will. The most challenging part was soldering the wires to the audio exciters but I managed to connect everything. This links to a blog post about the experience.",
       "tech": "soldering"
     },
     {
