@@ -16,7 +16,7 @@
       "title": "Blog",
       "url": "https://www.heyheatheritsmeagain.com/",
       "description": "I started blogging in order to become a better programmer and writer. After a few iterations I found it was easier to write when addressing a specific person. Hence the birth of \"Hey Heather, it's me again\". I write about general things I've been working on and things I don't understand.",
-      "tech": "jekyll, liquid, ruby, css, javascript, git"
+      "tech": "markdown, jekyll, liquid, ruby, css, javascript, git"
     },
     {
       "title": "Projects Page",
