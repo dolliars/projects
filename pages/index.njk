@@ -7,8 +7,8 @@
         {% for project in projects -%}
         <div class="projects__item">
           <h2 class="projects__title"><a class="projects__link" href="{{project.url}}" target="_blank">{{project.title}}</a></h2>
+          <p class="projects__tech">tech: {{project.tech}}</p>
           <p class="projects__description">{{project.description}}</p>
-          <p class="projects__tech">tech : {{project.tech}}</p>
         </div>
         {%- endfor %}
       </div>

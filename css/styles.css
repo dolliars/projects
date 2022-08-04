@@ -49,7 +49,7 @@ h1 {
   transition: all .2s linear;
   width: 40%;
   display: grid;
-  grid-template-rows: minmax(60px, max-content) 3fr 1fr;
+  grid-template-rows: minmax(60px, max-content) 1fr 2fr;
 }
 
 .projects__title {
@@ -57,7 +57,7 @@ h1 {
   font-family: 'Press Start 2P', 'Inconsolata', 'Roboto', monospace;
   font-size: 1em;
   font-weight: 400;
-  margin-top: 1.75em;
+  align-self: center;
 }
 
 a.projects__link {
@@ -65,6 +65,7 @@ a.projects__link {
   margin: -1em;
   text-decoration: none;
   position: relative;
+  color: #06c3c6;
 }
 
 a:before {
@@ -85,6 +86,10 @@ a:hover:before {
   transform: scaleX(1);
 }
 
+a:hover {
+  color: #f5098c;
+}
+
 .projects__item:hover {
   box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
   transform: translate3D(0, -2px, 0);
@@ -96,8 +101,11 @@ a:hover:before {
 
 .projects__tech {
   border-top: thin solid #d3d3d3;
+  border-bottom: thin solid #d3d3d3;
   padding-top: 15px;
+  padding-bottom: 15px;
   font-weight: 700;
+  align-self: center;
 }
 
 .projects__sample-title {
