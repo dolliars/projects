@@ -1,16 +1,22 @@
 {
   "projects": [
     {
-      "title": "Editing Zines",
-      "url": "https://wizardzines.com/zines/bite-size-bash/",
-      "description": "I collaborated on multiple zines in an editing capacity. I try and help bring clarity to the information being communicated by identifying explanations that could be confusing.",
-      "tech": "words"
+      "title": "Readbetter",
+      "url": "https://github.com/dolliars/readbetter",
+      "description": "Using JavaScript, I render text on a webpage by splitting it into cards which the user can click through. This was an experiment looking into a different way to present text on the web.",
+      "tech": "javascript, css, html"
     },
     {
-      "title": "Building speakers",
-      "url": "https://www.heyheatheritsmeagain.com/blog/building-speakers",
-      "description": "I built myself a pair of speakers out of ceiling panels, wires, and will. The most challenging part was soldering the wires to the audio exciters but I managed to connect everything. This links to a blog post about the experience.",
-      "tech": "soldering"
+      "title": "Editing Zines",
+      "url": "https://wizardzines.com/zines/bite-size-bash/",
+      "description": "Working with a subject-matter expert, I've collaborated on multiple programming zines, helping bring clarity to complicated software subjects. I ask questions and identify confusing explanations. I also make suggestions to help explain the subject.",
+      "tech": "DNS, HTTP, bash, debugging, css, containers, sql"
+    },
+    {
+      "title": "Be Kind Bot",
+      "url": "https://twitter.com/BekindBot",
+      "description": "I wrote a twitter bot that asked the same question daily after being inspired by a conversation between Shane Parrish and Adam Grant on The Knowledge Project podcast. An issue that came up was that the Twitter API throws an error when a duplicate status is detected. To circumvent this, I added the ordinal date as the first part of the tweet. The accound has since been retired.",
+      "tech": "aws ec2, twitter api, javascript, git"
     },
     {
       "title": "Blog",
@@ -22,7 +28,7 @@
       "title": "Projects Page",
       "url": "https://www.dolliars.com",
       "description": "I used a template engine to build this site. My primary concern was being able to add a project in a quick and simple manner. All projects are therefore JSON objects. I also wanted to keep the aesthetic of the site clean and simple so chose to display the projects in a vertical card-like list.",
-      "tech": "nunjucks, gulp, json, css, node, javascript, git"
+      "tech": "gulp, nunjucks, javascript, css, node, git"
     },
     {
       "title": "Ghibli API",
@@ -31,16 +37,16 @@
       "tech": "javascript, studio ghibli api, css, git"
     },
     {
-      "title": "Be Kind Bot",
-      "url": "https://twitter.com/BekindBot",
-      "description": "Inspired by a conversation between Shane Parrish and Adam Grant on The Knowledge Project podcast, I wrote a twitter bot that asked the same question daily. An issue that came up was that the Twitter API throws an error when a duplicate status is detected. To circumvent this, I added the ordinal date as the first part of the tweet.",
-      "tech": "aws ec2, twitter api, javascript, git"
-    },
-    {
       "title": "Reacting",
       "url": "https://dolliars.github.io/reacting/",
       "description": "At my previous office, many of the sites we managed were changing to React. I left before the changes were implemented so decide to try it out on my own by building a basic CRUD interface.",
       "tech": "react, javascript, git"
+    },
+    {
+      "title": "Building speakers",
+      "url": "https://www.heyheatheritsmeagain.com/blog/building-speakers",
+      "description": "I built myself a pair of speakers out of ceiling panels, wires, and will. The most challenging part was soldering the wires to the audio exciters but I managed to connect everything. This links to a blog post about the experience.",
+      "tech": "soldering"
     }
   ]
 }
