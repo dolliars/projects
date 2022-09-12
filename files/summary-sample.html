@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Summary sample page</title>
+    <base href="https://www.dolliars.com/">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body> 
+    <div id="main">
+      <h1>Summary sample</h1>
+      <div class="summary-item">
+        <h2>Review of issue</h2>
+        <p>What we found: <b>infinite scrolling is breaking the “back” functionality</b>. It is
+          also uncommonly used on e-commerce sites and is a hindrance for task oriented users.</p>
+        <p>We’ve concluded that infinite scroll has many negative effects that disturb the user
+        experience. Therefore we recommend removing infinite scrolling and return to using
+        pagination.</p>
+        <p>Benefits: This will fix the issue with the “back” button and will resolve a separate
+        SEO issue that was brought to our attention by the marketing team. The issue being that
+        currently Google bot is unable to crawl the products page.</p>
+        <hr>
+        <h3>UX Research</h3>
+        <p>Nielsen Norman Group (NNG) is a UX research and consulting firm that publishes many of
+        their findings for the design of websites and applications. They’ve researched the question
+        and the different considerations to take into account. From going over articles they
+        published, our recommendation is to revert to pagination.</p>
+        <p><b>Moving forward we should:</b></p>
+        <ol>
+          <li>Remove infinite scroll and use pagination instead</li>
+          <li>Provide pagination options for users with one of the following:
+            <ul>
+              <li>3 options: a base minimum, a large increment and a “View All” (e.g. 24, 120, View All)</li>
+              <li>2 options: a base minimum and a “View All” option</li>
+            </ul>
+          </li>
+        </ol>
+        <p><b>Notable findings:</b></p>
+        <ul>
+          <li>Etsy spent months developing and testing infinite scroll only to <b>revert back to
+              pagination</b>. They found that the feature had a negative impact on engagement with
+            fewer clicks, fewer favorited items and users stopped using search.</li>
+          <li>Infinite scrolling is the <b>wrong choice for websites that support goal-oriented
+              tasks</b>, e.g. for someone looking for a specific clothing item.</li>
+          <li><b>Users have difficulty navigating pages with infinite scroll</b>. They lose a sense of
+            where they are and where to locate previously seen content.</li>
+        </ul>
+        <hr>
+        <h3>References</h3>
+        <p>
+          <a href="https://www.nngroup.com/articles/infinite-scrolling/">
+            Infinite Scrolling Is Not for Every Website - by NNG - 4 minute read
+          </a>
+        </p>
+        <p>
+          <a href="https://www.nngroup.com/articles/item-list-view-all/">
+            Users' Pagination Preferences and "View All" - by NNG - 5 minute read
+          </a>
+        </p>
+        <p>
+          <a href="https://danwin.com/2013/01/infinite-scroll-fail-etsy/">
+            Why did infinite scroll fail at Etsy? - by Dan Nguyen - 6 minute read
+          </a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
