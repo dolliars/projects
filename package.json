@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/dolliars/projects/issues"
   },
-  "homepage": "https://github.com/dolliars/projects#readme"
+  "homepage": "https://github.com/dolliars/projects#readme",
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  }
 }
+
