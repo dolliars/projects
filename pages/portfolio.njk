@@ -2,24 +2,51 @@
 {% extends "layout.njk" %}
 {% block content %}
     <div id="main">
-      <h1>writing samples</h1>
-      <div class="projects">
-        <div class="projects__item">
-          <a class="projects__sample-title" href="https://www.heyheatheritsmeagain.com/blog/building-speakers"
-          target="_blank">Building speakers</a>
-          <p>I built a pair of speakers. Here's a blog post about the process.</p>
+      <h1>Portfolio</h1>
+      <section class="portfolio">
+        <div class="portfolio-item">
+          <h2>Editing: Wizard Zines</h2>
+          <p>Working with a subject-matter expert, I’ve collaborated and edited technical
+          documentation on subjects such as SQL, DNS, bash, CSS, containers, HTTP and the process
+          of debugging when developing software.</p>
+          <p>The following are links to the zines, and include sample pages which I worked on.</p>
+          <ul>
+            <li>Debugging: <a href="https://wizardzines.com/zines/debugging-guide/">The Pocket Guide to Debugging</a></li>
+            <li>SQL: <a href="https://wizardzines.com/zines/sql/">Become a SELECT star!</a></li>
+            <li>DNS: <a href="https://wizardzines.com/zines/dns/">How DNS Works</a></li>
+            <li>Bash: <a href="https://wizardzines.com/zines/bite-size-bash/">Bite Size Bash!</a></li>
+            <li>CSS: <a href="https://wizardzines.com/zines/css/">Hell Yes! CSS!</a></li>
+            <li>Containers: <a href="https://wizardzines.com/zines/containers/">How Containers Work!</a></li>
+            <li>HTTP: <a href="https://wizardzines.com/zines/http/">HTTP: Learn your browser's language!</a></li>
+          </ul>
         </div>
-        <div class="projects__item">
-          <a class="projects__sample-title" href="https://www.heyheatheritsmeagain.com/blog/pick-a-pickup"
-          target="_blank">Picking a pickup</a>
-          <p>In 2019, I built a guitar. This is a conversational style blog post on selecting a
-          pickup for it.</p>
+        <div class="portfolio-item">
+          <h2>Blog: Hey Heather, it's me again</h2>
+          <p>I write a conversational style blog which I use to explore both technical and
+          non-technical subjects. It's a place where I can write playful prose, explore things
+          that have been on my mind, and document my projects.</p>
+          <p>Here are a few posts touching on technical topics:</p>
+          <ul>
+            <li><a href="https://www.heyheatheritsmeagain.com/blog/rfc-1738">RFC-1748</a>: I wrote
+              this post when I learned about RFCs.</li>
+            <li><a href="https://www.heyheatheritsmeagain.com/blog/nice-robot">A nice robot</a>: A
+              post recalling how I went about building a simple Twitter bot.</li>
+            <li><a href="https://www.heyheatheritsmeagain.com/blog/anchors-away">Anchors: a way to
+                phish</a>: This post takes a look at certain link attributes.</li>
+          </ul>
         </div>
-        <div class="projects__item">
-          <a class="projects__sample-title" href="https://www.heyheatheritsmeagain.com/blog/nice-robot"
-          target="_blank">A nice robot</a>
-          <p>Another conversational style blog post on building a twitter bot.</p>
+
+        <div class="portfolio-item">
+          <h2>Summary sample</h2>
+          <p>In my role as a developer, I've written documents to communicate with different
+          stakeholders regarding the status of a project or task.</p>
+          <p>Here is a summary I wrote a few years ago resulting from the investigation of a
+          longstanding issue. Some contextual information has been removed:</p>
+          <ul>
+            <li><a href="./files/summary-sample.html">Summary document</a></li>
+          </ul>
         </div>
-      </div>
+      </section>
+
     </div>
 {%- endblock %}
